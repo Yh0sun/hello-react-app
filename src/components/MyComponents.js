@@ -63,6 +63,7 @@ class MyComponents extends Component {
 
         return (
             <div>
+                <h2>Envirment = {process.env.REACT_APP_MODE}</h2>
                 <h3>Hello {name}/{age}</h3>
                 <p>상태변수 {this.state.myValue}</p>
                 <p>상태변수 {myValue}</p>
